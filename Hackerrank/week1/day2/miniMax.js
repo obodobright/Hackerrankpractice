@@ -5,8 +5,8 @@ function miniMaxSum(arr) {
   // step 1 - add up all intergers in arr
   let sum = arr.reduce((a, b) => a + b);
   // step2 - get the max and min value of the numbers in the array;
-  let maxVal = Math.max(...arr);
-  let minVal = Math.min(...arr);
+  let maxVal = Math.max(...arr)
+  let minVal = Math.min(...arr)
 
   // step 3 - subract the total sumfrom the maxVal and minVal rrespectively;
   console.log(sum - maxVal, sum - minVal);
